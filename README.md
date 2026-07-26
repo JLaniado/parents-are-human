@@ -2,7 +2,9 @@
 
 Play it here: **[jlaniado.github.io/parents-are-human](https://jlaniado.github.io/parents-are-human/)**
 
-A bilingual (English/Spanish) connection card game designed to spark deep conversations between you and your loved ones. This is a web recreation of the [Parents Are Human](https://parentsarehuman.com) card game, built in the spirit of [We're Not Really Strangers](https://github.com/munjoonteo/wnrs).
+A bilingual (English/Spanish) connection card game designed to spark deep conversations between you and your loved ones. This is an **unofficial fan project** recreating the [Parents Are Human](https://parentsarehuman.com) card game as a web app, built in the spirit of [We're Not Really Strangers](https://github.com/munjoonteo/wnrs).
+
+**This project is not affiliated with, endorsed by, or sponsored by Parents Are Human.** It's a hobby project made by a fan. If you enjoy it, please consider [buying the official physical deck](https://parentsarehuman.com) — that's where this content originally comes from.
 
 ## How to play
 
@@ -53,6 +55,14 @@ src/
 ## Deployment
 
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the app and publishes `dist/` to GitHub Pages automatically.
+
+## License & content attribution
+
+- **Code** (everything under `src/` except the card text itself, plus config files) is licensed under [MIT](LICENSE) — free to reuse, fork, or build on.
+- **Original card content** (`src/data/cards.ts` ids 5–74, and `src/data/about.ts`) is transcribed from the [Parents Are Human](https://parentsarehuman.com) card game and remains the property of its original creators. It's reproduced here as an unofficial, non-commercial fan project; no rights to that content are claimed or granted by this repo's license.
+- **New cards added by this fork** (`src/data/cards.ts` ids 75+, the "Adulthood" category) are original content written for this project and are covered by the MIT license like the rest of the code.
+
+If you're affiliated with Parents Are Human and have concerns about this project, please open an issue and it'll be addressed promptly.
 
 ## Credits
 

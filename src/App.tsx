@@ -136,7 +136,7 @@ function App() {
 
       <CardHistory history={historyCards} language={language} />
 
-      <Credits />
+      <Credits language={language} />
 
       <AboutModal open={aboutOpen} onClose={() => setAboutOpen(false)} language={language} />
     </div>

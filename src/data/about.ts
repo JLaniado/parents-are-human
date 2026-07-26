@@ -11,6 +11,10 @@ export interface AboutContent {
 export const about: AboutContent = {
   en: [
     {
+      heading: "Unofficial Fan Project",
+      body: "This website is an unofficial, non-commercial fan project and is not affiliated with, endorsed by, or sponsored by Parents Are Human. Most of the cards below are reproduced from the original Parents Are Human card game — all rights to that content belong to its creators. If you enjoy this, please visit parentsarehuman.com to support the original and buy the physical deck. Cards in the \"Adulthood\" category were written for this fan project and are not part of the original game.",
+    },
+    {
       heading: "About the Cards",
       body: "Parents Are Human is a card game designed to spark deep conversations between you and your loved ones.",
     },
@@ -44,6 +48,10 @@ export const about: AboutContent = {
     },
   ],
   es: [
+    {
+      heading: "Proyecto de Fans No Oficial",
+      body: 'Este sitio web es un proyecto de fans no oficial y sin fines de lucro, y no está afiliado, respaldado ni patrocinado por Parents Are Human. La mayoría de las tarjetas a continuación son una reproducción del juego de tarjetas original de Parents Are Human; todos los derechos de ese contenido pertenecen a sus creadores. Si te gusta este proyecto, visita parentsarehuman.com para apoyar el original y comprar la baraja física. Las tarjetas de la categoría "Adultez" fueron escritas para este proyecto de fans y no forman parte del juego original.',
+    },
     {
       heading: "Acerca de las tarjetas",
       body: '"Parents Are Human" (Los padres son humanos) es un juego de tarjetas diseñado para iniciar conversaciones profundas entre usted y su familia.',
